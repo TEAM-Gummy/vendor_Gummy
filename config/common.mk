@@ -7,7 +7,6 @@ SUPERUSER_PACKAGE_PREFIX := com.android.settings.gummy.superuser
 HOST_CHECK := $(shell hostname)
 ifeq ($(HOST_CHECK), cphelps76-HP-Pavilion-dv7)
     PRODUCT_PACKAGE_OVERLAYS += vendor/Gummy/overlay/inverted
-    PRODUCT_PACKAGES += DSPManager
 else
     PRODUCT_PACKAGE_OVERLAYS += vendor/Gummy/overlay/common
 endif
@@ -170,7 +169,8 @@ PRODUCT_PACKAGES += \
     GummyFileManager \
     MusicFX \
     Gummypapers \
-    GummyStartupService
+    GummyStartupService \
+    DSPManager
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
