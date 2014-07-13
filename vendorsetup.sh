@@ -18,6 +18,7 @@ add_lunch_combo tg_hlte-userdebug
 add_lunch_combo tg_i605-userdebug
 add_lunch_combo tg_i9300-userdebug
 add_lunch_combo tg_jflte-userdebug
+add_lunch_combo tg_l900-userdebug
 add_lunch_combo tg_maguro-userdebug
 add_lunch_combo tg_mako-userdebug
 add_lunch_combo tg_m7-userdebug
