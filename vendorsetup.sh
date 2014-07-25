@@ -11,6 +11,7 @@ add_lunch_combo tg_evita-userdebug
 add_lunch_combo tg_exhilarate-userdebug
 add_lunch_combo tg_falcon-userdebug
 add_lunch_combo tg_find7-userdebug
+add_lunch_combo tg_find7u-userdebug
 add_lunch_combo tg_flo-userdebug
 add_lunch_combo tg_grouper-userdebug
 add_lunch_combo tg_hammerhead-userdebug
