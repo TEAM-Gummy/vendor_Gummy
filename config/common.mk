@@ -5,7 +5,7 @@ SUPERUSER_PACKAGE_PREFIX := com.android.settings.gummy.superuser
 
 # Allow alternative overlay package with additional/alternative defaults, apps, scripts, etc...host user name dependant
 HOST_CHECK := $(shell hostname)
-ifeq ($(HOST_CHECK), cphelps76-HP-Pavilion-dv7)
+ifeq ($(HOST_CHECK),$(filter $(HOST_CHECK),cphelps76-HP-Pavilion-dv7 cphelps76-XPS-8700))
     PRODUCT_PACKAGE_OVERLAYS += vendor/Gummy/overlay/inverted
 else
     PRODUCT_PACKAGE_OVERLAYS += vendor/Gummy/overlay/common
