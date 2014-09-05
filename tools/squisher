@@ -131,6 +131,13 @@ echo
 
 # Create a md5 checksum image of the repacked package
 (
+echo $CL_BLU" _____ _   ____  ______  ____   __ "
+echo $CL_BLU"|  __ \ | | |  \/  ||  \/  \ \ / / "
+echo $CL_BLU"| |  \/ | | | .  . || .  . |\ V /  "
+echo $CL_BLU"| | __| | | | |\/| || |\/| | \ /   "
+echo $CL_BLU"| |_\ \ |_| | |  | || |  | | | |   "
+echo $CL_BLU"\_____/\___/\_|  |_/\_|  |_/ \_/   "$CL_RST
+
 img=`basename $OUTFILE`
 cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
