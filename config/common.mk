@@ -169,8 +169,13 @@ PRODUCT_PACKAGES += \
     GummyFileManager \
     MusicFX \
     Gummypapers \
-    GummyStartupService \
-    DSPManager
+    GummyStartupService
+
+# DSPManager
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
