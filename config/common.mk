@@ -169,7 +169,8 @@ PRODUCT_PACKAGES += \
     GummyFileManager \
     MusicFX \
     Gummypapers \
-    GummyStartupService
+    GummyStartupService \
+    SimpleL
 
 # DSPManager
 PRODUCT_PACKAGES += \
