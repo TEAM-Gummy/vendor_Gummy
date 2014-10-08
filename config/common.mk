@@ -218,7 +218,7 @@ PRODUCT_PACKAGES += \
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
-PRODUCT_VERSION_MAJOR = M3
+PRODUCT_VERSION_MAJOR = M4
 PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 0-RC0
 
